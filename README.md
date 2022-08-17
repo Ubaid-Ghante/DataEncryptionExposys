@@ -62,11 +62,13 @@ Using a bash shell as a starting point is to ensure that all the required librar
 
 First let's see the flow of data through different files
 
-
+![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.007.jpeg)
 
 The shell file first installs all the required libraries that are need for encryption of data and then runs the python file which encrypts data and saves it in the "Encrypted Message and Key.txt" file. Now by which ever method you want can send this file to the receiver which then decrpyts the message and moves the data to "Output.txt" file. All this is done locally as to demonstrate the project so I have set a local SMTP server which takes the msg as a mail and forwards it.
 
 Now let's se what is going inside the python file
+
+![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.008.jpeg)
 
 First let's import the libraries that we will need to use that are AES from Crypto.Cipher, binascii, os, hashlib and smtplib. Then creating a file to store the data that will be transferred to the recipient. The program asks you to input a password that will be used as a key for your data to be unlocked. The key
 
