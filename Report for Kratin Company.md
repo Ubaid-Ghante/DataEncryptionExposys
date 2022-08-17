@@ -1,18 +1,17 @@
-﻿October 2021![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.001.png)
+﻿October 2021
 
 **D A T A**
 
-**E N C R YP T IO N**
+**E N C R Y P T IO N**
 
 **EXPOS YS DATA LABS**
 
 Prepared by: UBAID AKHTAR GHANTE Software Engineer Intern at
 
-[Exposys Dat](https://github.com/Ubaid-Ghante/DataEncryptionExposys)a Labs
+Exposys Data Labs
 
-[GitHub Link](https://github.com/Ubaid-Ghante/DataEncryptionExposys)
 
-**Abstract![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.002.png)**
+## **Abstract**
 
 Encryption is the science of providing security and protection of information. It is used everywhere in our digital world: when you open a Web site, send an email or connect to the WiFi network. That's why developers should have at least basic understanding of cryptography and how to use crypto algorithms and crypto libraries, to understand hashing, symmetric and asymmetric ciphers and encryption schemes, as well as digital signatures and the cryptosystems and algorithms behind them.
 
@@ -20,7 +19,7 @@ Cryptography deals with storing and transmitting data in a secure way, such that
 
 Using AES 256 bit algorithm and hashing we can reach a fair bit of security.
 
-**Table of content![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.003.png)**
+## **Table of content**
 
 1. Abstract 02
 1. Table of Contents 03
@@ -31,7 +30,7 @@ Using AES 256 bit algorithm and hashing we can reach a fair bit of security.
 1. Implementation 08
 1. Conclusion 09
 
-**Introduction![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.004.png)**
+## **Introduction**
 
 Encryption...is a powerful defensive weapon for free people. It offers a technical guarantee of privacy, regardless of who is running the government... It's hard to think of a more powerful, less dangerous tool for liberty.
 
@@ -43,11 +42,11 @@ For technical reasons, an encryption scheme usually uses a pseudo- random encryp
 
 It is possible to decrypt the message without possessing the key but, for a well-designed encryption scheme, considerable computational resources and skills are required. An authorized recipient can easily decrypt the message with the key provided by the originator to recipients but not to unauthorized users.
 
-**Proposed ![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.005.png)Method**
+## **Proposed Method**
 
 After going through lot of different available algorithms I have reached a point where I can use the existing algorithms with some changes and using more than one algorithm to combined together to form a secure and we'll managed system for your data.
 
-Method
+### Method
 
 In this project I have used python as my preferred programming language as it gives many existing libraries that help in strong encryption. The libraries that I used for encryption, sending data and hashing are:
 
@@ -59,23 +58,21 @@ binascii
 
 Using a bash shell as a starting point is to ensure that all the required libraries are installed and up to date for proper functioning of the program. This helps in running more than one python script for encryption and decryption both and also a python script to send the encrypted data.Also a localhost will be created to demonstrate the project.
 
-**Architecture![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.006.png)**
+### **Architecture**
 
 First let's see the flow of data through different files
 
-![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.007.jpeg)
+
 
 The shell file first installs all the required libraries that are need for encryption of data and then runs the python file which encrypts data and saves it in the "Encrypted Message and Key.txt" file. Now by which ever method you want can send this file to the receiver which then decrpyts the message and moves the data to "Output.txt" file. All this is done locally as to demonstrate the project so I have set a local SMTP server which takes the msg as a mail and forwards it.
 
-Now let's se what is going inside the python file![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.006.png)
-
-![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.008.jpeg)
+Now let's se what is going inside the python file
 
 First let's import the libraries that we will need to use that are AES from Crypto.Cipher, binascii, os, hashlib and smtplib. Then creating a file to store the data that will be transferred to the recipient. The program asks you to input a password that will be used as a key for your data to be unlocked. The key
 
 entered will be converted to a 256 bit hash that will be used as a entropy for the encryption this makes it easy for decryption if and only if you know the password  that is the key. You have to enter your data then the data and the secret key will be passed into AES 256 bit algorithm which then saves the Encrypted data in "Encrypted Message and Key.txt".
 
-**Implementation![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.009.png)**
+## **Implementation**
 
 Algorithms use keys to encrypt and decrypt data. Encrypting the same data with a different key will produce a different result. Just as it is important to choose the right algorithm, it is also important to ensure that the key size is sufficiently large to defend against an attack over the lifetime of the data. As computing processing power increases or new mathematical attack methods are discovered, a key must remain sufficiently large to ensure that an attack remains a practical impossibility.
 
@@ -83,7 +80,7 @@ Data controllers should therefore regularly assess whether their encryption keys
 
 Progress of mobile communication and VLSI technology has aided in development of smart devices. These devices process the information of various formats and sizes in a limited amount of time. This information will be either stored in the devices or in cloud, hence there is a need for some kind of methodology to process and secure the data. Implementation of new algorithms to secure the information is always of immense interest. These algorithms will improve the performance of smart devices and helps for better human-machine interaction. Generally, symmetric and asymmetric approaches are used to secure the data from unauthorized users or attacks. Considering the amount of delay and complexity involved in processing the data, various forms of algorithms are used. In this paper, we propose a novel algorithm to secure the data from vulnerable attacks. These algorithms can be implemented on various platforms. The experimental results demonstrate an improvement of 10% for contacts and 15% for the encryption of images as compared to other conventional approaches.
 
-**Conclusion![](Aspose.Words.6d54d81f-9d05-4464-b166-81b69de2120c.010.png)**
+## **Conclusion**
 
 Privacy is a basic right that can only be achieved by encryption.
 
@@ -91,4 +88,4 @@ In today's world encryption is a necessity and a programmer's job is to provide 
 
 By:-
 
-Ubaid Akhtar Ghante
+## Ubaid Akhtar Ghante
